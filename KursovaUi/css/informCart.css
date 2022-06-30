@@ -1,0 +1,39 @@
+.inform_cart{
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    font-size: 25px;
+}
+
+.under_inform_cart{
+    display:  block;
+    justify-content: space-around;
+    margin-top: 30px;
+    max-width: 500px;
+}
+.information_baro_data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    background: rgb(90, 207, 143);
+    color: rgb(8, 75, 83);
+    border: 1px solid black;
+    width: 200px px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 28px;
+    border-radius: 20px;
+    opacity: 80%;
+    cursor: auto;
+    text-align: center;
+    transition: transform .2s;
+}
+.information_baro_data:hover{
+    background: rgb(67, 155, 107);
+    -ms-transform: scale(1.25); /* IE 9 */
+    -webkit-transform: scale(1.25); /* Safari 3-8 */
+    transform: scale(1.25)
+}
+

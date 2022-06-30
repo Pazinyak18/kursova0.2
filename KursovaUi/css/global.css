@@ -1,0 +1,47 @@
+body{
+    background: #111;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-family: 'Courier New', monospace;
+    background-image: url('../images/background.jpg');
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+h1{
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(8, 75, 83);
+width: 300 px;
+max-width: 800px;
+font-size: 40px;
+background: rgb(90, 207, 143);
+border: 1px solid black;
+width: 170 px;
+height: 115px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 15px;
+opacity: 80%;
+transition: transform .2s;
+}
+h1:hover{
+    background: rgb(67, 155, 107);
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5)
+}
+
+
+.container{
+    display: block;
+    /* flex-direction: column; */
+    text-align: center;
+    color: white;
+    margin: 12px 0 0 12px;
+}
